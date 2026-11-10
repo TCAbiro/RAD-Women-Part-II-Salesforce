@@ -1,0 +1,16 @@
+.forceignore
+.gitignore
+.husky/pre-commit
+.prettierignore
+.prettierrc
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+README.md
+config/project-scratch-def.json
+eslint.config.js
+jest.config.js
+package.json
+scripts/apex/hello.apex
+scripts/soql/account.soql
+sfdx-project.json
