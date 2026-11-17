@@ -133,7 +133,13 @@ private class RecipeTriggerHandlerTest {
             Name = 'African Cookbook'
         );
         insert cookbook;
-
+            cookbook = [
+                SELECT Id, OwnerId
+                FROM Cookbook__c
+                WHERE Id = :cookbook.Id
+                LIMIT 1
+    ];
+    
         Recipe_Usage__c usage = new Recipe_Usage__c(
             Recipe__c = recipe.Id,
             Cookbook__c = cookbook.Id
