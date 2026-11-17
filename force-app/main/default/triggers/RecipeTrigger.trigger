@@ -1,4 +1,3 @@
-
 trigger RecipeTrigger on Recipe__c (
     before insert,
     after insert,

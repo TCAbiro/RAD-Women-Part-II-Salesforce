@@ -1,4 +1,3 @@
-
 public with sharing class RecipeTriggerHandler {
 
     // 1. Check required values and mark incomplete recipes
